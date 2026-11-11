@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>בדיקת נראות בבינה מלאכותית לעורכי דין</title>
+<meta name="description" content="כששואלים את ChatGPT, Perplexity או גוגל מי עורך הדין המומלץ בעיר שלך, השם שלך מופיע? בדיקה ראשונית בחינם, דוח מלא עם רשימת תיקונים ב-390 ש״ח.">
+<meta property="og:title" content="כששואלים בינה מלאכותית מי עורך הדין המומלץ בעיר שלך, השם שלך מופיע?">
+<meta property="og:description" content="בדקנו בפועל. 19 עורכי דין הוזכרו בחמש תשובות, רק אחת הופיעה כמעט בכולן.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#fbfaf7;--panel:#fff;--ink:#16202b;--muted:#5d6975;--line:#e3e0d8;--brand:#0f5c4a;--brand-ink:#fff;--soft:#eaf3ef;--warn:#9a5b00}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Heebo,system-ui,sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:780px;margin:0 auto;padding:0 20px}
+  .num{font-family:"IBM Plex Mono",monospace;direction:ltr;unicode-bidi:isolate;font-variant-numeric:tabular-nums}
+  header{padding:54px 0 30px}
+  .eyebrow{font-size:14px;color:var(--brand);font-weight:700;margin:0 0 12px}
+  h1{font-size:clamp(28px,5.8vw,44px);line-height:1.2;margin:0 0 16px;font-weight:800;text-wrap:balance}
+  .lead{font-size:18.5px;color:#34404c;margin:0 0 26px;max-width:640px}
+  .cta{display:inline-block;background:var(--brand);color:var(--brand-ink);font-weight:700;font-size:18px;padding:14px 26px;border-radius:10px;text-decoration:none;border:0;cursor:pointer;font-family:inherit}
+  .cta:hover{filter:brightness(1.12)}
+  .cta:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+  .cta-note{font-size:14px;color:var(--muted);margin-top:10px}
+  section{padding:38px 0;border-top:1px solid var(--line)}
+  h2{font-size:25px;margin:0 0 14px;font-weight:800;text-wrap:balance}
+  p{margin:0 0 14px}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0 14px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 14px}
+  .stat b{display:block;font-size:34px;line-height:1.1;font-weight:700;color:var(--brand)}
+  .stat span{font-size:14.5px;color:var(--muted)}
+  .src{font-size:13.5px;color:var(--muted)}
+  table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:15.5px}
+  th,td{padding:12px 14px;text-align:start;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#f3f1ea;font-weight:700;font-size:14px}
+  tr:last-child td{border-bottom:0}
+  .scroll{overflow-x:auto}
+  ul.clean{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+  ul.clean li{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  ul.clean b{display:block;margin-bottom:2px}
+  .plans{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .plan{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px 18px}
+  .plan.main{border:2px solid var(--brand);background:var(--soft)}
+  .plan h3{margin:0 0 4px;font-size:19px}
+  .plan .price{font-size:30px;font-weight:800;margin:4px 0 10px}
+  .plan ul{margin:0 0 16px;padding-inline-start:20px}
+  .plan li{margin-bottom:6px}
+  .honest{background:#fff8ea;border:1px solid #ecd9a8;border-radius:12px;padding:16px 18px;color:#4a3a12}
+  .honest b{color:var(--warn)}
+  details{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+  summary{font-weight:700;cursor:pointer}
+  details p{margin:10px 0 0;color:#34404c}
+  footer{padding:26px 0 50px;border-top:1px solid var(--line);font-size:13.5px;color:var(--muted)}
+  footer a{color:inherit}
+  @media (max-width:560px){.stats{grid-template-columns:1fr}.plans{grid-template-columns:1fr}header{padding-top:38px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">בדיקת נראות בבינה מלאכותית · לעורכי דין</p>
+  <h1>כששואלים את ChatGPT מי עורך הדין המומלץ בעיר שלך, השם שלך מופיע?</h1>
+  <p class="lead">יותר ויותר אנשים שואלים עוזר בינה מלאכותית במקום לחפש בגוגל. בדקנו בפועל מה הוא עונה. ברוב המקרים עורך דין שמופיע במנוע אחד בכלל לא קיים בשני.</p>
+  <a class="cta js-contact" data-msg="היי, אשמח לבדיקה ראשונית בחינם. שם המשרד: ___ , עיר: ___ , תחום: ___" href="#contact">בדיקה ראשונית בחינם</a>
+  <div class="cta-note">שאלה אחת, שלושה מנועים, התשובות אצלך באותו יום. בלי התחייבות.</div>
+</header>
+
+<section>
+  <h2>מה מצאנו כשבדקנו עורכי דין לגירושין בפתח תקווה</h2>
+  <p>ב־11.11.2026 שאלנו שלושה מנועים שתי שאלות שלקוח אמיתי שואל, וקיבלנו חמש תשובות. המנועים שנבדקו: מצב הבינה המלאכותית של גוגל, <bdi>ChatGPT</bdi> ו־<bdi>Perplexity</bdi>.</p>
+  <div class="stats">
+    <div class="stat"><b class="num">19</b><span>עורכי דין שונים הוזכרו בחמש התשובות</span></div>
+    <div class="stat"><b class="num">1</b><span>הופיעה בארבע מתוך חמש התשובות</span></div>
+    <div class="stat"><b class="num">13</b><span>הופיעו בתשובה אחת בלבד</span></div>
+  </div>
+  <p>באותה שאלה בדיוק, שני מנועים נתנו שתי רשימות בלי אף שם משותף. מי שלא ברשימה פשוט לא קיים מבחינת מי ששאל.</p>
+  <p class="src">זו תמונת מצב של חמש הרצות ולא מחקר סטטיסטי. תשובות של מנועים משתנות, ולכן בדוח המלא כל שאלה נשאלת פעמיים בכל מנוע.</p>
+</section>
+
+<section>
+  <h2>למה זה קורה</h2>
+  <p>כל מנוע בונה את התשובה ממקורות אחרים. את זה ראינו ישירות בקישורים שהמנועים עצמם הציגו.</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>המנוע</th><th>ממה הוא בנה את התשובה בבדיקה שלנו</th><th>מה זה אומר</th></tr></thead>
+    <tbody>
+      <tr><td>ChatGPT</td><td>פרופיל העסק בגוגל: דירוג, כמות ביקורות ושם הפרופיל</td><td>פרופיל דל או בלי התמחות ועיר בשם, לא נכנס לרשימה</td></tr>
+      <tr><td>Perplexity</td><td>מדריכי עורכי דין ואינדקסים של המלצות</td><td>מי שלא רשום שם עם המלצות, לא מוזכר</td></tr>
+      <tr><td>Google AI</td><td>שילוב: אתר המשרד, מדריכים ופרופיל גוגל</td><td>אתר בלי עמוד ברור לכל תחום ועיר, נשאר בחוץ</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <h2>מה מקבלים</h2>
+  <div class="plans">
+    <div class="plan">
+      <h3>בדיקה ראשונית</h3>
+      <div class="price">חינם</div>
+      <ul>
+        <li>שאלה אחת בתחום ובעיר שלך</li>
+        <li>שלושה מנועים</li>
+        <li>התשובות המלאות כפי שהתקבלו, ומי הוזכר</li>
+      </ul>
+      <a class="cta js-contact" data-msg="היי, אשמח לבדיקה ראשונית בחינם. שם המשרד: ___ , עיר: ___ , תחום: ___" href="#contact">לבדיקה בחינם</a>
+    </div>
+    <div class="plan main">
+      <h3>דוח נראות מלא</h3>
+      <div class="price"><span class="num">₪390</span></div>
+      <ul>
+        <li>6 שאלות שלקוחות שואלים, 3 מנועים, כל שאלה פעמיים: 36 תשובות מתועדות</li>
+        <li>טבלה: בכמה תשובות הופעת, ומי הופיע במקומך</li>
+        <li>מפת מקורות: מאילו אתרים כל מנוע שאב</li>
+        <li>רשימת תיקונים לפי סדר עדיפות, עם הנוסחים המוכנים להדבקה</li>
+        <li>מוכן בתוך 24 שעות</li>
+      </ul>
+      <a class="cta js-contact" data-msg="היי, אני רוצה דוח נראות מלא. שם המשרד: ___ , עיר: ___ , תחום: ___" href="#contact">להזמנת דוח</a>
+      <div class="cta-note">משלמים רק אחרי שהדוח אצלך. לא מרוצה, לא משלם.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>מה יש ברשימת התיקונים</h2>
+  <ul class="clean">
+    <li><b>פרופיל העסק בגוגל</b>מה חסר בו לעומת מי שכן מוזכר: קטגוריה, תיאור, תחומי התמחות, שאלות ותשובות.</li>
+    <li><b>מדריכים ואינדקסים</b>באילו מהמקורות שהמנועים ציטטו אתה לא רשום, או רשום עם פרופיל ריק.</li>
+    <li><b>האתר שלך</b>אילו עמודים חסרים כדי שמנוע יוכל לצטט אותך על שאלה ספציפית, והאם האתר בכלל פתוח לסורקים של המנועים.</li>
+    <li><b>נוסחים מוכנים</b>תיאור משרד, פסקת התמחות ותשובות לשאלות נפוצות, כתובים כך שאפשר להדביק.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="honest">
+    <p><b>מה אנחנו לא מבטיחים.</b> אף אחד לא שולט בתשובות של מנועי בינה מלאכותית, ואנחנו לא מבטיחים שתופיע בהן. הדוח מראה מה המצב היום, ממה הוא נובע, ומה הצעדים שמגדילים את הסיכוי.</p>
+    <p style="margin:0">אנחנו לא מציעים ביקורות מזויפות, טקסט נסתר או כל דרך אחרת לרמות את המנועים. כל המלצה בדוח כפופה לכללי הפרסומת של לשכת עורכי הדין, והאחריות לעמידה בהם נשארת אצל המשרד.</p>
+  </div>
+</section>
+
+<section>
+  <h2>שאלות נפוצות</h2>
+  <details><summary>איך אתם יודעים מה המנועים עונים?</summary><p>אנחנו שואלים אותם בפועל, בשיחה נקייה בלי היסטוריה, ושומרים את התשובה המלאה עם התאריך והשעה. שום דבר בדוח אינו הערכה או ניחוש של מה שהמנוע "היה עונה".</p></details>
+  <details><summary>מי מכין את הדוח?</summary><p>הניתוח והכתיבה נעשים בעזרת בינה מלאכותית, ואדם עובר על הדוח לפני שהוא נשלח. אנחנו אומרים את זה מראש.</p></details>
+  <details><summary>למה המחיר נמוך?</summary><p>זה מחיר השקה שתקף עד 14.11.2026. משרדי שיווק גובים על בדיקה דומה אלפי שקלים, ואנחנו צריכים לקוחות ראשונים והמלצות.</p></details>
+  <details><summary>אתם עושים גם את התיקונים עצמם?</summary><p>כן, בתשלום נפרד ורק אם תרצו. רוב התיקונים ברשימה אפשר לבצע לבד בתוך שעה או שעתיים.</p></details>
+</section>
+
+<section id="contact">
+  <h2>יצירת קשר</h2>
+  <p id="contactText">שלחו הודעה עם שם המשרד, העיר והתחום, ונחזור עם הבדיקה הראשונית באותו יום.</p>
+  <p><a class="cta js-contact" data-msg="היי, אשמח לבדיקה ראשונית בחינם. שם המשרד: ___ , עיר: ___ , תחום: ___" href="#contact">שליחת הודעה</a></p>
+  <p class="src" id="contactAlt"></p>
+</section>
+
+<footer>
+  קיבלת מאיתנו פנייה ואינך מעוניין? כתוב לנו "הסר" ולא נפנה שוב.
+</footer>
+</div>
+
+<script src="contact.js"></script>
+<script>
+(function(){
+  var c = window.CONTACT || {}, links = document.querySelectorAll(".js-contact"), alt = document.getElementById("contactAlt");
+  links.forEach(function(a){
+    var msg = a.getAttribute("data-msg") || "";
+    if(c.whatsapp){ a.href = "https://wa.me/" + c.whatsapp + "?text=" + encodeURIComponent(msg); a.target = "_blank"; a.rel = "noopener"; }
+    else if(c.email){ a.href = "mailto:" + c.email + "?subject=" + encodeURIComponent("בדיקת נראות בבינה מלאכותית") + "&body=" + encodeURIComponent(msg); }
+  });
+  if(c.whatsapp && c.email){ alt.textContent = "אפשר גם במייל: " + c.email; }
+  if(!c.whatsapp && !c.email){ document.getElementById("contactText").textContent = "פרטי יצירת הקשר יתווספו כאן בשעות הקרובות."; }
+})();
+</script>
+</body>
+</html>
